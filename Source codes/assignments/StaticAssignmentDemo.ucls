@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="assignments.StaticAssignmentDemo" project="JavaClassNotes" 
+    file="/JavaClassNotes/assignments/StaticAssignmentDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="158" x="274" y="144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="assignments.NominateACaptain" project="JavaClassNotes" 
+    file="/JavaClassNotes/assignments/StaticAssignmentDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="176" x="472" y="144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="3">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="4" name="_captain"/>      
+      <multiplicity id="5" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
