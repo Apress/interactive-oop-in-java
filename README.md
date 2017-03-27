@@ -2,7 +2,7 @@
 
 This repository accompanies [*Interactive Object Oriented Programming in Java*](http://www.apress.com/9781484225431) by Vaskaran Sarcar (Apress, 2016).
 
-![Cover image](9781484225431.jpg)
+[comment]: #cover
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
